@@ -12,10 +12,10 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-    databaseURI: databaseUri || 'mongodb://heroku_1rg4hvgs:2fqhf3riau72k0sm5er703k7fa@ds015760.mlab.com:15760/heroku_1rg4hvgs',
+    databaseURI: databaseUri || 'mongodb://heroku_k1r47gcr:s43jhmssgsueanhjsevi92jifq@ds031965.mlab.com:31965/heroku_k1r47gcr',
     cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-    appId: process.env.APP_ID || 'pvVwTa1ma83JOkt9aV12bmpZNWFKTiRavAcSoUrM',
-    masterKey: process.env.MASTER_KEY || 'Uqj9QEu97Lyd6DIGi19a2jc9nRzoY6VMYz0HeILr', //Add your master key here. Keep it secret!
+    appId: process.env.APP_ID || 'gvjVVMjL4KI2ucyklbXb5Fcmukh4GMpkwlvVB7tT',
+    masterKey: process.env.MASTER_KEY || 'aUkVULyhzhyQnhDGjEdrD7IXtyBYZz8tPHGdw7l6', //Add your master key here. Keep it secret!
     serverURL: process.env.SERVER_URL || 'https://english-tagalog-mongolian.herokuapp.com/parse', // Don't forget to change to https if needed
     liveQuery: {
         classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
@@ -37,6 +37,22 @@ var api = new ParseServer({
                 bundleId: 'com.satoshogoEnglishTgaog',
                 production: true
             }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
+                bundleId: 'com.satoshogoEnglishTgaog',
+                production: true
+            }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
+                bundleId: 'com.satoshogoEnglishTgaog',
+                production: true
+            }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
+                bundleId: 'com.satoshogoEnglishTgaog',
+                production: true
+            }, 
+              
              {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.EnglishTagalog.remake store.p12',
                 bundleId: 'com.satoshogo.EnglishTagalog.remake',
