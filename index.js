@@ -28,34 +28,34 @@ var api = new ParseServer({
         //   apiKey: '...'
         // },
         ios: [{
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishMongolian store.p12',
-                bundleId: 'com.satoshogoEnglishMongolian',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseUzbek store.p12',
+                bundleId: 'com.satoshogoChineseUzbek',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
-                bundleId: 'com.satoshogoEnglishTgaog',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseKazakh store.p12',
+                bundleId: 'com.satoshogoChineseKazakh',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
-                bundleId: 'com.satoshogoEnglishTgaog',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseEstonian store.p12',
+                bundleId: 'com.satoshogoChineseEstonian',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
-                bundleId: 'com.satoshogoEnglishTgaog',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoCinesePolish store.p12',
+                bundleId: 'com.satoshogoCinesePolish',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
-                bundleId: 'com.satoshogoEnglishTgaog',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseIndonesianEglish store.p12',
+                bundleId: 'com.satoshogoChineseIndonesianEglish',
                 production: true
             }, 
               
              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.EnglishTagalog.remake store.p12',
-                bundleId: 'com.satoshogo.EnglishTagalog.remake',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoCinesendoesian store.p12',
+                bundleId: 'com.satoshogoCinesendoesian',
                 production: true
             }
         ]
