@@ -77,9 +77,24 @@ var api = new ParseServer({
                 bundleId: 'com.satoshogoCineseSpanish',
                 production: true
             }, 
-              {//com.satoshogoChineseLao store.p12
+              {
                 pfx: __dirname + '/iPhoneP12/com.satoshogoChineseLao store.p12',
                 bundleId: 'com.satoshogoChineseLao',
+                production: true
+            }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.ChineseItalian.remake store.p12',
+                bundleId: 'com.satoshogo.ChineseItalian.remake',
+                production: true
+            }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseItalianEnglish store.p12',
+                bundleId: 'com.satoshogoChineseItalianEnglish',
+                production: true
+            }, 
+              {//com.satoshogoCineseItaly store
+                pfx: __dirname + '/iPhoneP12/com.satoshogoCineseItaly store.p12',
+                bundleId: 'com.satoshogoCineseItaly',
                 production: true
             }, 
               
